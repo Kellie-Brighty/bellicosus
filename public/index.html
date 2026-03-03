@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex of Filth | Bellicosus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loader-overlay" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <h2 class="nav-logo">Bellicosus</h2>
+            <div class="nav-links">
+                <a href="#hero">Origin</a>
+                <a href="#about">The Apex</a>
+                <a href="#stats">Dominion</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="hero">
+        <div class="hero-bg-img"></div>
+        <canvas id="fire-particles"></canvas>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="title-wrapper">
+                <span class="subtitle fade-up">Random9#2886</span>
+                <h1 class="main-title fade-up delay-1">Bellicosus</h1>
+                <h3 class="title-tag fade-up delay-2">Apex of Filth</h3>
+            </div>
+            
+            <div class="hero-actions fade-up delay-3">
+                <div class="ca-container">
+                    <span class="ca-label">CA:</span>
+                    <span class="ca-text" id="ca-text">0x919CDf5871Bcda2ef4F189944751D76fe2adBCd5</span>
+                    <button class="copy-btn" id="copy-btn" aria-label="Copy CA">
+                        <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </button>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://t.me/Bellicosusoneth" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Telegram">
+                        <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </a>
+                    <a href="https://x.com/bellicosusoneth" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="X (Twitter)">
+                        <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+                    </a>
+                </div>
+                
+                <div class="action-buttons">
+                    <a href="https://dexscreener.com/ethereum/0x919CDf5871Bcda2ef4F189944751D76fe2adBCd5" target="_blank" rel="noopener noreferrer" class="cta-btn primary-btn">View Chart</a>
+                    <a href="#about" class="cta-btn secondary-btn">Witness the Ascendancy</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-text scroll-reveal left">
+                <h2 class="section-title">The Master of Elements</h2>
+                <div class="title-underline"></div>
+                <p class="about-desc">
+                    Forged in the ruthless depths of Wraeclast, Bellicosus stands as a testament to unrelenting power and chaotic mastery. As an Invoker, he wields the very fabric of existence, bending elements to his iron will.
+                </p>
+                <p class="about-desc">
+                    Clad in the dark, heavy armor of a warlord, his presence demands reverence. Flames dance in his wake, a chilling reminder of the infernal might at his command. He is not merely a combatant; he is the Apex of Filth.
+                </p>
+                <div class="stats-highlights">
+                    <div class="highlight-item">
+                        <span class="highlight-val">Lvl 41</span>
+                        <span class="highlight-label">Invoker</span>
+                    </div>
+                    <div class="highlight-item">
+                        <span class="highlight-val">Hardcore</span>
+                        <span class="highlight-label">Veteran</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image scroll-reveal right">
+                <div class="image-frame">
+                    <img src="image.jpg" alt="Bellicosus on Throne" class="portrait-img">
+                    <div class="frame-border top-left"></div>
+                    <div class="frame-border top-right"></div>
+                    <div class="frame-border bottom-left"></div>
+                    <div class="frame-border bottom-right"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section" id="stats">
+        <div class="container">
+            <div class="stats-header scroll-reveal up">
+                <h2 class="section-title center">Path to Dominance</h2>
+                <p class="stats-subtitle">A lineage of blood, magic, and survival.</p>
+            </div>
+            
+            <div class="legacy-grid">
+                <div class="legacy-card scroll-reveal up delay-1">
+                    <div class="card-icon">🔥</div>
+                    <h3>Current Campaign</h3>
+                    <p>Dominating Path of Exile 2 early access since December 2024. Building out the Invoker class with devastating elemental synergies.</p>
+                </div>
+                <div class="legacy-card scroll-reveal up delay-2">
+                    <div class="card-icon">⚔️</div>
+                    <h3>Fallen Heroes</h3>
+                    <p>Honoring the legacy of <em>BeLessDumb</em> (World #3 HC in March 2025) and <em>Kekius Maximus</em> (approaching level 80 in late 2024).</p>
+                </div>
+                <div class="legacy-card scroll-reveal up delay-3">
+                    <div class="card-icon">⚡</div>
+                    <h3>The Ruthless Path</h3>
+                    <p>Proven mastery with the Ruthless HC Elementalist in early 2026. Only the strongest survive the true unforgiving trials.</p>
+                </div>
+            </div>
+            
+            <div class="banner-showcase scroll-reveal up">
+                <img src="banner.jpg" alt="Bellicosus UI Banner" class="ui-banner-img">
+                <div class="banner-caption">
+                    <span>Guild Status: Online</span>
+                    <span class="dot"></span>
+                    <span>Apex of Filth Confirmed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h2>Bellicosus</h2>
+                <p>The eternal grind continues.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Random9#2886. Fan promotional concept.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast notification layer -->
+    <div id="toast" class="toast">CA Copied to Clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
